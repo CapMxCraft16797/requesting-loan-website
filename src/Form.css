@@ -1,0 +1,59 @@
+body {
+  background: rgb(10, 0, 53);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#form {
+  width: 50%;
+  border-radius: 10px;
+  background: rgb(51, 0, 170);
+  color: white;
+  padding: 20px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+label {
+  margin-top: 20px;
+}
+
+input,
+select {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+  height: 30px;
+  border: none;
+}
+
+hr {
+  width: 100%;
+}
+
+#loanSubmit {
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  background: rgb(211, 0, 127);
+  color: white;
+}
+
+#modal-content {
+  background: white;
+  width: 70%;
+}
+#modal {
+  position: absolute;
+  color: green;
+  background: rgba(0, 0, 0, 0.459);
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.disabled {
+  background: gray !important;
+}
